@@ -1,0 +1,29 @@
+input {
+  keyboard {
+    xkb {
+      layout "us,ru"
+      options "grp:alt_shift_toggle"
+    }
+  }
+
+  touchpad {
+    natural-scroll
+  }
+}
+
+layout {
+  gaps 10
+}
+
+cursor {
+  xcursor-theme "Adwaita"
+  xcursor-size 24
+}
+
+binds {
+  Mod+T { spawn "alacritty"; }
+  Mod+Q { close-window; }
+  Mod+M { maximize-window-to-edges; }
+  Mod+D { spawn "fuzzel"; }
+}
+
