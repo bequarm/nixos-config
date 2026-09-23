@@ -8,6 +8,7 @@
     ./modules/timezone.nix
     ./modules/env.nix
     ./modules/audio.nix
+    ./modules/bluetooth.nix
     ./modules/power.nix
     ./modules/docker.nix
     ./modules/niri.nix
